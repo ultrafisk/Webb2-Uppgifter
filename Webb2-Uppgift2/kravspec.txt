@@ -1,0 +1,9 @@
+page title: ISNPAFAWSUHPWSOP
+navbar links
+1: Home; index.html
+2: About; about.html
+3: Contact; contact.html
+
+Footer:
+&copy; 2017 - 2069 International Societal Non-Profit Association for the Further Advancement of Wide Spread Usage of Hot-Pink for Websites and Similar Official Publication (ISNPAFAWSUHPWSOP)
+All Rights Reserved
