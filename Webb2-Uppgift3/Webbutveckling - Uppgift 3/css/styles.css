@@ -1,0 +1,116 @@
+/*    ----- Allmänt -----   */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #333;
+    background-color: #fff;
+}
+
+body *{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+/*    ----- Header -----    */
+
+#header {
+    color: #fff;
+    background-image: url(../img/hero.jpg);
+    background-position: center;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    /*ändrar text till stora bokstäver*/
+    text-transform: uppercase;
+}
+/*Rubrik-box*/
+.rubrikBox {
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0 0 10px 0;
+    -webkit-transform: translate(-50%, -50%);
+}
+/*Boka Knapp*/
+.boka {
+    padding: ;
+    margin: 15px auto;
+    text-transform: none;
+    overflow: visible;
+}
+.boka *{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0984e3;
+    padding: 5px;
+}
+
+/*    ----- Text -----    */
+.info {
+    text-align: justify;
+    width: 720px;
+    margin: 10px auto;
+}
+.info h3{
+    text-align: center;
+    margin: 10px auto;
+    padding: 0 0 10px 0;
+    border-bottom: solid #0984e3;
+    width: 200px;
+}
+.aktivitet1 {
+    background-color: inherit;
+    padding: 10px;
+    overflow: auto
+}
+.aktivitet1 img{
+    width: 400px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.aktivitet2 {
+    background-color: #f7f7f7;
+    padding: 10px;
+    overflow: auto;
+}
+.aktivitet2 img{
+    width: 400px;
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+#footer {
+    background-color: #0984e3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*  -----   För mobiler(när skärm är mindre än 720 pixlar bred) -----   */
+@media only screen and (max-width: 480px) {
+    .rubrikBox {
+        width: 100%;
+    }
+    
+    .info {
+        width: 100%;
+    }
+    
+    img{
+        margin: 0;
+        width: 100%;
+    }
+}
